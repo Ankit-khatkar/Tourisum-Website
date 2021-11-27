@@ -1,0 +1,134 @@
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    overflow-x: hidden;
+}
+/* This is Header Css. */
+#nav{
+    /* border: 2px solid black; */
+    display: flex;
+    position: static;
+}
+li{
+    list-style: none;
+}
+#manu{
+    /* display: flex; */
+    
+}
+.manu{
+    padding-top: 40px;
+    padding-left: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid rgb(155, 155, 19); */
+    
+}
+li a:hover{
+    background-color: rgb(155, 155, 19);
+    border-radius: 5px;
+}
+li a:visited{
+    color: rgb(155, 155, 19);
+}
+#search {
+    position: relative;
+    left: 220px;
+    top: 33px;
+    height: 25px;
+    width: 200px;
+    border-color: black;
+}
+#search:hover{
+    background-color: rgb(155, 155, 19);
+}
+#header::before{
+    content: "";
+    position: absolute;
+    background: url(taj\ mahal\ 2.jpg) no-repeat center center/cover;
+    height: 85%;
+    width: 100%;
+    z-index: -1;
+}
+#midhead{
+    text-align: center;
+    margin-top: 155px;
+}
+h3{
+    display: block;
+}
+#section1{
+    display: flex;
+    /* display: flex;
+    position: relative;
+    top: 300px;
+    left: 200px; */
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+ /* Content 1 */
+#c1{
+    margin-top: 265px;
+}
+#d1{
+    margin-top: 30px;
+} 
+#c2{
+    margin-top: 30px;
+}
+#c3{
+    margin-top: 30px;
+}
+#section2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+#section3{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+#section4{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    align-items: center;
+}
+#morepage{
+    margin-left: 43.50%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 400px;
+} 
+.fcontant{
+    padding: 10px 10px;
+    border-radius: 100px solid black;
+}
+#message{
+    padding: 40px 10px;
+}
+#formhead{
+    margin-left: 500px;
+}
+/* This Footer Css */
+#footer{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
