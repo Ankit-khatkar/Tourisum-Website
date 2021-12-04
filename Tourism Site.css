@@ -1,5 +1,5 @@
 body{
-    font-family: 'Baloo Bhai 2', cursive;
+    /* font-family: 'Baloo Bhai 2', cursive; */
     overflow-x: hidden;
 }
 /* This is Header Css. */
@@ -17,10 +17,51 @@ li{
 }
 .manu{
     padding-top: 40px;
-    padding-left: 30px;
+    padding-left: 60px;
     
 }
-a{
+.sub-manu-1{
+    display: none;
+}
+.manu:hover .sub-manu-1{
+    position: absolute;
+    display: inline;
+}
+#sub-manu-1{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 0, 0.431);
+    border-radius: 8px;
+    padding-left: 20px;
+}
+.sub-manu-2{
+    display: none;
+}
+#holyday-type:hover .sub-manu-2{
+    display: inline;
+    position: absolute;
+}
+#sub-manu-2{
+    margin-top: 40px;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 0, 0.431);
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+li a{
     text-decoration: none;
     color: black;
     /* border: 2px solid rgb(155, 155, 19); */
@@ -33,16 +74,16 @@ li a:hover{
 li a:visited{
     color: rgb(155, 155, 19);
 }
+li a:active{
+    color:rgb(155, 155, 19) ;
+}
 #search {
     position: relative;
-    left: 220px;
+    left: 140px;
     top: 33px;
     height: 25px;
     width: 200px;
     border-color: black;
-}
-#search:hover{
-    background-color: rgb(155, 155, 19);
 }
 #header::before{
     content: "";
@@ -54,7 +95,7 @@ li a:visited{
 }
 #midhead{
     text-align: center;
-    margin-top: 155px;
+    margin-top: 200px;
 }
 h3{
     display: block;
@@ -71,7 +112,7 @@ h3{
 }
  /* Content 1 */
 #c1{
-    margin-top: 265px;
+    margin-top: 185px;
 }
 #d1{
     margin-top: 30px;
@@ -131,4 +172,24 @@ h3{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+#simg:hover{
+    height: 600px;
+    width: 900px;
+    
+}
+#simg2:hover{
+    height: 600px;
+    width: 900px;
+    
+}
+#simg3:hover{
+    height: 600px;
+    width: 900px;
+    
+}
+#simg4:hover{
+    height: 600px;
+    width: 900px;
+    
 }
