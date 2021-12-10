@@ -1,12 +1,17 @@
 body{
     /* font-family: 'Baloo Bhai 2', cursive; */
     overflow-x: hidden;
+    font-family:Arial, Helvetica, sans-serif;
 }
 /* This is Header Css. */
 #nav{
     /* border: 2px solid black; */
     display: flex;
-    position: static;
+    position: fixed;
+    margin-top: -196px;
+    font-weight: bold;
+    /* text-shadow:2px 2px rgb(56, 54, 23); */
+    /* overflow: hidden; */
 }
 li{
     list-style: none;
@@ -71,10 +76,10 @@ li a:hover{
     background-color: rgb(155, 155, 19);
     border-radius: 5px;
 }
-li a:visited{
+li a.visited{
     color: rgb(155, 155, 19);
 }
-li a:active{
+li a.active{
     color:rgb(155, 155, 19) ;
 }
 #search {
@@ -92,13 +97,27 @@ li a:active{
     height: 85%;
     width: 100%;
     z-index: -1;
+    margin-top: -200px;
+}
+header{
+    margin-top: -200px;
 }
 #midhead{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 399px;
+}
+.midhead{
+    margin-top: 0px;
+    text-decoration: none;
+}
+.title{
+    padding-top: 100px;
 }
 h3{
     display: block;
+}
+#section{
+    margin-top: 280px;
 }
 #section1{
     display: flex;
