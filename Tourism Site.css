@@ -5,6 +5,8 @@ body{
     color: rgb(0, 0, 0);
     background-color: #c1c8e4;
 }
+
+/* This is background image of this site. ex:- mountians img */
 #back-img{
     height: 100vh;
     margin-left: -10px;
@@ -12,8 +14,9 @@ body{
     width: 1284px;
     position: fixed;
     z-index: -2;
-}    
-/* This is Header Css. */
+} 
+
+/* This is Navigation bar. */
 #nav{
     /* border: 2px solid black; */
     display: flex;
@@ -21,28 +24,38 @@ body{
     margin-top: -196px;
     font-weight: bold;
     color: #333;
-    /* text-shadow:2px 2px rgb(56, 54, 23); */
-    /* overflow: hidden; */
 }
+
+/* Lists in navigation bar. */
 li{
     list-style: none;
 }
+
+/* Manus in navigation bar. */
 #manu{
     /* display: flex; */
     
 }
+
+/* Manus in navigatin bar.  */
 .manu{
     margin-top: 40px;
     margin-left: 60px;
     
 }
+
+/* This is sub-manu of manu's css. */
 .sub-manu-1{
     display: none;
 }
+
+/* when someone hover at manu. than sub-manu action. */
 .manu:hover .sub-manu-1{
     position: absolute;
     display: inline;
 }
+
+/* when someone hover at manu. than sub-manu action. */
 #sub-manu-1{
     margin-top: 25px;
     display: flex;
@@ -57,13 +70,18 @@ li{
     padding: 0px;
     
 }
+
+/* This is sub manu 2 of manu3. */
 .sub-manu-2{
     display: none;
 }
+
+/* This is sub-manu of navigation bar. */
 #holyday-type:hover .sub-manu-2{
     display: inline;
     position: absolute;
 }
+/* This is sub-manu-2. */
 #sub-manu-2{
     margin-top: 40px;
     display: flex;
@@ -79,16 +97,21 @@ li{
     padding-top: 0px;
 }
 
+/* This sub-manu-2's li>a */
 li a{
     text-decoration: none;
     color: black;
     /* border: 2px solid rgb(155, 155, 19); */
     
 }
+
+/* Hover at Sub-manu-2>li>a */
 li a:hover{
     background-color: #c1c8e4;
     padding: 5px;
 }
+
+/* This is search bar in navigation manu. */
 #search {
     position: relative;
     left: 140px;
@@ -97,6 +120,7 @@ li a:hover{
     width: 200px;
     border-color: black;
 }
+/* This is landing page background image. ex:- Taj mahal img */
 #header::before{
     content: "";
     position: absolute;
@@ -111,23 +135,28 @@ li a:hover{
 header{
     margin-top: -200px;
 }
+/* This is midhead box css.*/
 #midhead{
     text-align: center;
     margin-top: 399px;
 }
+/* This is midhead button below the main head line. */
 .midhead{
     margin-top: 0px;
     text-decoration: none;
 }
+/* This is title line of this website. */
 .title{
     padding-top: 100px;
 }
 h3{
     display: block;
 }
+/* This section part of this website. */
 #section{
     margin-top: 280px;
 }
+/* This is section 1 */
 #section1{
     display: flex;
     /* display: flex;
@@ -138,62 +167,145 @@ h3{
     flex-direction: column;
     align-items: center;
 }
- /* Content 1 */
+ /* Content1(c1) of section 1. */
 #c1{
     margin-top: 185px;
 }
+/* Detail1(d1) of section1. */
 #d1{
     margin-top: 30px;
-} 
-#c2{
-    margin-top: 30px;
 }
-#c3{
-    margin-top: 30px;
+
+/* When someone hover at section1 image. */
+#simg:hover{
+    height: 600px;
+    width: 900px;   
 }
+
+ /*This is section2 of this site.  */
 #section2{
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
 }
+/* This is content2(c2) of section2. */
+#c2{
+    margin-top: 30px;
+}
+/* This isdetail2(d2) of section2. */
+/* #d2{
+    .............
+} */
+
+/* When someone hover at section2 image. */
+#simg2:hover{
+    height: 600px;
+    width: 900px;    
+}
+
+/* This is section3. */
 #section3{
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
 }
+/* This is content3(c3) of section3. */
+#c3{
+    margin-top: 30px;
+}
+/* This is detail3(d3) of section3. */
+/* #d3{
+    ....................
+} */
+
+/* When someone hover at section3 image. */
+#simg3:hover{
+    height: 600px;
+    width: 900px;   
+}
+
+/* This is section4. */
 #section4{
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
 }
+
+/* When someone hover at section4 image. */
+#simg4:hover{
+    height: 600px;
+    width: 900px;   
+} 
+ 
+/* That buttons for page 2,3,4. */
 #buttons{
     display: flex;
     justify-content: center;
     margin-top: 7px;
     align-items: center;
 }
+/* This line for more next pages. */
 #morepage{
     margin-left: 43.50%;
 }
+
+/* this is feedback line for form. */
+#formhead{
+    margin-left: 500px;
+}
+/* This form for feedback. */
 #form{
     display: flex;
     flex-direction: column;
     margin-left: 400px;
     margin-right: 400px;
 } 
+
+/* That is input button of form. */
 .fcontant{
-    padding: 10px 10px;
-    border-radius: 100px solid black;
+    border: 3px solid white;
+    color: black;
+    border-radius: 25px;
+    padding: 20px 100px;
+    background: transparent;
+    font-weight: bold;
 }
+
+/* When someone hove at input buttons of form. */
+.fcontant:hover{
+    background-color: #fff;
+}
+
+/* this is message box for user which have to leave feedback for website. */
 #message{
+    border: 3px solid white;
+    color: black;
+    border-radius: 25px;
+    background: transparent;
     padding: 40px 10px;
+    font-weight: bold;
 }
-#formhead{
-    margin-left: 500px;
+
+/* When someone hover at message box. */
+#message:hover{
+    background: white;
 }
+
+/* This button for feedback submit button. */
+#fed-submit{
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 20px 50px;
+    background: transparent;
+}
+/* When some hover at fed-submit button. */
+#fed-submit:hover{
+    background-color: white;
+}
+
 /* This Footer Css */
 #footer{
     /* border: 2px solid red; */
@@ -232,62 +344,60 @@ h3{
     height: 300px;
     width: 300px;
 }
+/* This input of email. */
 #subscribe{
     border: 2px solid black;
     padding: 15px;
     border-radius: 25px;
 }
+
+/* This is submit button of email. */
 .subscribe{
     margin-left: 60px;
     margin-top: 10px;
 }
+
+/* Here are some social medias. */
 #socialmedia{
     margin-top: 15px;
 }
+
+/* This social media. */
 #twitter{
     height: 20px;
     width: 20px;
 }
+
+/* This social media. */
 #facebook{
     height: 20px;
     width: 20px;
 }
+
+/* This social media. */
 #instagram{
     height: 20px;
     width: 20px;
 }
+
+/* This social media. */
 #youtube{
     height: 20px;
     width: 20px;
 }
+
+/* This is box3 in footer. */
 #box3 a{
     text-decoration: none;
     color: #fff;
 }
+
+/* When some hover at box3's ancer lines. */
 #box3 a:hover{
     font-weight: bold;
 }
+
+/* This copyright line and privacy & policy. */
 #copyright{
     padding-left: 400px;
 }
-#simg:hover{
-    height: 600px;
-    width: 900px;
-    
-}
-#simg2:hover{
-    height: 600px;
-    width: 900px;
-    
-}
-#simg3:hover{
-    height: 600px;
-    width: 900px;
-    
-}
-#simg4:hover{
-    height: 600px;
-    width: 900px;
-    
-}
-    
