@@ -306,6 +306,49 @@ h3{
     background-color: white;
 }
 
+/* Note point of website. */
+#Note{
+    border: 2px solid white ;
+    height: 50px;
+    width: 200px;
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Note 8s 0.5s infinite;
+}
+@keyframes Note{
+    0%{
+        background-color: whitesmoke;
+        margin-left: 0%;
+        border-radius: 15px;
+    }
+
+    25%{
+        background-color: #c1c8e4;
+        margin-left: 25%;
+        border-radius: 15px;
+    }
+
+    50%{
+        background-color: #70758b;
+        margin-left: 50%;
+        border-radius: 15px;
+    }
+
+    75%{
+        background-color: #c1c8e4;
+        margin-left: 75%;
+        border-radius: 15px;
+    }
+
+    100%{
+        background-color: whitesmoke;
+        margin-left: 100%;
+        border-radius: 15px;
+    }
+
+}
 /* This Footer Css */
 #footer{
     /* border: 2px solid red; */
@@ -400,4 +443,8 @@ h3{
 /* This copyright line and privacy & policy. */
 #copyright{
     padding-left: 400px;
+}
+#time{
+    margin-top: 100px;
+    margin-right: 20px;
 }
