@@ -307,7 +307,16 @@ h3{
 }
 
 /* Note point of website. */
-#Note{
+
+/* This CSS for Note1. */
+#Note1{
+    text-decoration: none;
+    color: black;
+}
+#Note1:hover{
+    color:blue;
+}
+.Note1{
     border: 2px solid white ;
     height: 50px;
     width: 200px;
@@ -315,9 +324,60 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: Note 8s 0.5s infinite;
+    animation: Note1 8s 0.5s infinite;
 }
-@keyframes Note{
+@keyframes Note1{
+    0%{
+        background-color: whitesmoke;
+        margin-left: 100%;
+        border-radius: 15px;
+    }
+
+    25%{
+        background-color: #c1c8e4;
+        margin-left: 75%;
+        border-radius: 15px;
+    }
+
+    50%{
+        background-color: #70758b;
+        margin-left: 50%;
+        border-radius: 15px;
+    }
+
+    75%{
+        background-color: #c1c8e4;
+        margin-left: 25%;
+        border-radius: 15px;
+    }
+
+    100%{
+        background-color: whitesmoke;
+        margin-left: 0%;
+        border-radius: 15px;
+    }
+
+}
+
+/* This CSS for NOte2. */
+#Note2{
+    text-decoration: none;
+    color: black;
+}
+#Note2:hover{
+    color:blue;
+}
+.Note2{
+    border: 2px solid white ;
+    height: 50px;
+    width: 200px;
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Note2 8s 0.5s infinite;
+}
+@keyframes Note2{
     0%{
         background-color: whitesmoke;
         margin-left: 0%;
